@@ -19,7 +19,7 @@ fn main() {
     };
 
     println!(
-        "The area of a rectangle {:?} is {} square pixels.",
+        "The area of a rectangle {:#?} is {} square pixels.",
         rect, area(&rect)
         );
 }
